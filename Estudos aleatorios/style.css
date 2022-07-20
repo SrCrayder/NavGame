@@ -1,0 +1,44 @@
+body {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-size: auto; 
+background-image: url("/img/fundo.gif");
+}
+
+.navJog {
+    width: 80px;
+    height: 80px;
+    background-image: url("img/nave-unscreen.gif");
+    background-size: 100px;
+    position: absolute;
+
+}
+
+.TelaMsg {
+    position: absolute;
+    margin-left: -25%;
+    top: 50px;
+    left: 50%;
+    width: 720px;
+    height: 621px;
+    display: none;
+}
+#MedidorPlaneta{
+    border: 2px solid #000;
+    width: 300px;
+    height: 20px;
+    background-color: #fff;
+}
+#BarraPlaneta{
+    width: 300px;
+    height: 20px;
+    background-color: rgb(17, 0, 255);
+}
+.tiroJog{
+    width: 6px;
+    height: 6px;
+    background-color: #000;
+    border-radius: 6px;
+    position: absolute;
+    margin-left: 1.95rem;
+}
